@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Modal</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="close()">
+        Close
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>
+    Everything is still kosher. The padding at the top of this screen is firmly intact.
+  </p>
+
+  <p>
+    Now, for the big whammy, click the button below to push to a new page.
+  </p>
+
+  <button ion-button (click)="pushPage()">
+    Click to see bug
+  </button>
+</ion-content>
